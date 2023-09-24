@@ -1,0 +1,184 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Cardo';
+}
+
+/* navbar */
+
+.navbar-nav {
+	margin-right: 0 !important;
+	padding-right: 100px;
+}
+
+.navbar {
+	color: white !important;
+}
+
+.nav-item a {
+	color: grey !important;
+}
+
+.nav-item a.active {
+	color: black !important;
+}
+
+.nav-item {
+	padding-left: 4px;
+	margin-right: 2rem;
+
+}
+
+.navbar-brand {
+	color: white !important;
+	padding-left: 100px;
+}
+
+#navbar button {
+	color: black !important;
+	font-weight: bold;
+	margin-right: 4rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+#navbar button:hover {
+	color: white !important;
+}
+
+/* banner */
+#banner-container {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.banner-heading {
+	font-size: 450%;
+	font-family: 'Cardo';
+}
+
+#banner-row h1,
+p {
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+#banner-row button {
+	margin-left: 20px;
+	margin-top: 20px;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	font-weight: bold;
+}
+
+#banner-col {
+	padding-left: 20px;
+}
+
+.guide-heading {
+	font-size: 350%;
+	font-family: 'Cardo';
+}
+
+#guides-container {
+	margin-top: 6rem;
+}
+
+#guides-container img {
+	height: max-content;
+}
+
+/* about */
+
+#about {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.about-heading {
+	font-size: 650%;
+	font-family: 'Cardo';
+}
+
+#about-col ul {
+	padding-top: 50px;
+	padding-left: 50px;
+}
+
+#about-col ul li {
+	padding-top: 15px;
+
+}
+
+#banner2 {
+	background-color: black;
+	color: white;
+}
+
+.banner2-heading {
+	font-size: 300%;
+}
+
+.banner6-heading {
+	font-size: 500%;
+}
+
+.banner7-heading {
+	font-size: 600%;
+}
+.accordion-button::after {
+	background-image: url("data:image/svg+xml, %3Csvg width='800px' height='800px' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='SVGRepo_bgCarrier' stroke-width='0'/%3E%3Cg id='SVGRepo_tracerCarrier' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cg id='SVGRepo_iconCarrier'%3E%3Cpath d='M4 12H20M12 4V20' stroke='%23000000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.accordion-button:not(.collapsed)::after {
+	background-image: url("data:image/svg+xml, %3Csvg width='800px' height='800px' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='SVGRepo_bgCarrier' stroke-width='0'/%3E%3Cg id='SVGRepo_tracerCarrier' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cg id='SVGRepo_iconCarrier'%3E%3Cpath d='M6 12L18 12' stroke='%23000000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.accordion-body {
+	margin-left: 2rem;
+}
+
+.myForm input,
+.myForm textarea {
+	border-width: 2px;
+	border-color: black;
+	border-style: solid;
+}
+
+/* carousel */
+
+.card-body {
+	border-color: black;
+	border-width: 2px;
+}
+
+
+/* footer */
+
+#footer {
+	background-color: lightgray;
+	margin: 0;
+	padding: 0 !important;
+}
+
+.footer-heading {
+	font-size: 250%;
+}
+
+/* media */
+@media only screen and (max-width: 987px) {
+	.navbar-brand {
+		padding-left: 0px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	#banner-row img {
+		padding-top: 20px;
+	}
+
+	.social-col {
+		width: 33%;
+	}
+
+}
